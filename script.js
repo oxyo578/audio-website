@@ -8,7 +8,7 @@ function playAudio() {
 async function checkForAudioTrigger() {
     try {
         // Replace with your API endpoint
-        const response = await fetch('https://1mjtk537p8.execute-api.eu-north-1.amazonaws.com');
+        const response = await fetch('https://tddrkgfwu0.execute-api.eu-north-1.amazonaws.com');
         
         if (response.ok) {
             const data = await response.json();
